@@ -1,0 +1,25 @@
+@import animations
+@import "../../utils/_variables"
+// .header__navigation__li 
+    
+
+.header__navigation__a
+    background: #b2a5a5
+    width: 15rem
+    height: 3.6rem
+    margin: 1rem
+    padding: 1rem
+    border: .5rem solid #d1c051
+    border-radius: 1rem
+    text-align: center
+
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: .4s 
+
+    animation: li_spawn .5s
+
+    box-shadow: $box-shadow
+    &:hover
+        @include li_hover

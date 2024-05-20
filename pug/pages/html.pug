@@ -1,0 +1,48 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title HTML
+
+        link(rel="stylesheet", href="/css/all.css")
+        link(rel="stylesheet", href="/css/header_all.css")
+        link(rel="stylesheet", href="/css/main_all.css")
+        link(rel="stylesheet", href="/css/footer_all.css")
+        
+        link(rel="stylesheet", href="/css/articles.css")
+        link(rel="stylesheet", href="/css/main_articles.css")
+
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet")
+    body 
+        header 
+            nav.navigation
+                ul.header__navigation__ul 
+                    li.header__navigation__li
+                        a.header__navigation__a(href="../index.html") NCKN
+                    li.header__navigation__li
+                        a.header__navigation__a(href="#") HTML
+                    li.header__navigation__li 
+                        a.header__navigation__a(href="css.html") CSS
+                    li.header__navigation__li 
+                        a.header__navigation__a(href="javascript.html") JavaScript #[br](в разработке)
+                    li.header__navigation__li 
+                        a.night_theme(href="#")
+                            i.fa-moon.fa-solid
+
+        main.main.main_article
+            
+            article.article.article_html
+                h2.h2 HTML
+                h3.h3 Что это такое?
+                .article__div Html это #[b HyperText Markup Language]  #[br] или язык гипертекстовой разметки
+
+            article.article.article_html
+                h3.h3 Из чего состоит html
+                .article__div Html состоит из тегов #[br]
+
+        footer
+            include ../includes/footer.pug
+            
